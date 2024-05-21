@@ -4,6 +4,7 @@
 
 자바스크립트를 이용한 이미지검색 사이트 만들기
 ### script
+```javascirpt
   // API 키
 const accessKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw"; // 실제 API 키는 사용하지 마세요!
 
@@ -74,5 +75,6 @@ formEl.addEventListener("submit", (event) => {
 showMoreButtonEl.addEventListener("click", () => {
   searchImages();
 });
+```
 
 ###
